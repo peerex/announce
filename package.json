@@ -1,0 +1,44 @@
+{
+  "name": "peerex-announce",
+  "version": "1.0.0",
+  "description": "Peerex.org announcement page",
+  "scripts": {
+    "build": "gulp build",
+    "dev": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peerex/announce.git"
+  },
+  "author": "Mr. Peerex <mr@peerex.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peerex/announce/issues"
+  },
+  "homepage": "https://github.com/peerex/announce#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "browser-sync": "^2.23.1",
+    "browserify": "^14.5.0",
+    "eslint": "^4.14.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-importify": "^0.0.7",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.2",
+    "smooth-scroll": "^12.1.5",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}

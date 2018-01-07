@@ -1,0 +1,30 @@
+@import 'colors'
+@import 'animations'
+
+#hello
+  position: relative
+
+  border-top: 0.5rem transparent solid
+  border-image: $gradient
+  border-image-slice: 1
+
+  color: white
+
+  background: $gradient
+  background-size: 300% 300%
+  animation: animatedBackground 15s ease infinite
+
+  .logo
+    width: 30rem
+    max-width: 90%
+
+  p
+    width: 30rem
+    max-width: 90%
+    font-weight: bold
+    font-size: 1.1rem
+    text-transform: uppercase
+
+  .socials
+    position: absolute
+    bottom: 0.5rem
