@@ -3,128 +3,14 @@ html
   head
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1')
-    title Peerex - Decentralized asset exchange platform
+    title Peerex - Decentralized peer-to-peer asset exchange
     link(rel='stylesheet', type='text/css', href='css/app.css')
     script(src='js/app.js')
   body
-    header
-      a(href="#traders") traders
-      a(href="#users") users
-      a(href="#business") business
-      a(href="#roadmap") roadmap
     section#hello
-      img.logo(src="../img/peerex.svg")
-      p Decentralized asset exchange platform
-      a.book-button(href="https://book.peerex.org")
-        | Read Peerex book
-      ul.socials
-        li
-          a(href=twitter_url, target="_blank")
-            img(src="../img/twitter.svg", alt="Twitter")
-        li
-          a(href=telegram_channel_url, target="_blank")
-            img(src="../img/telegram.svg", alt="Telegram")
-    section#common
-      ul.features
-        h1 What is Peerex?
-        p
-          | Peerex consists of five elements - client-side Wallet, Stellar Anchor, Asset Exchange (like Poloniex or Bittrex), Local Exchange (like Localbitcoins) and Payments Platform (like Bitpay) - each of which is powered by&nbsp;
-          a(href="https://stellar.org", target="_blank") Stellar blockchain
-          | .
-        li
-          h Open-source
-          p
-            | All the client-side code is MIT-licenced and avaialable at&nbsp;
-            a(href=github_url, target="_blank") GitHub
-            | .
-        li
-          h Decentralized
-          p Peerex is not regulated by any government and even if the website is eventually taken down or hacked, no user is harmed, no funds are gone, and the system will be able to continue operating with no consequences.
-        li
-          h Private
-          p We never collect any tracking information about you, be it a fingerprint or analytics cookie. Your funds are never accessed by us, because all transactions are signed client-side (by you).
-    section#traders
-      ul.features
-        h1 For traders
-        p
-          | Thanks to Stellar, Peerex assets exchange is anonymous, limitless and always free. Almost every asset could be exchanged, be it BTC, USD or Google Stocks!
-          br
-          br
-          | We never have access to your funds, all operations are performed within your browser.
-        li
-          h No KYC
-          p We never ask any information about you - be it an ID or your dog's name.
-        li
-          h No fees
-          p Except of extra small Stellar fee - about $0.000002 - no charges are taken.
-        li
-          h No limits
-          p Your friend Bob has issued Banana tokens? Exchange them to BTC at any moment without hassle.
-    section#users
-      ul.features
-        h1 For users
-        p On-blockhain local assets exchange allows to buy and sell almost any asset with your local currency, for example, you can buy ETH with your debit card!
-        li
-          h Private
-          p
-            | No information about a particular local exchange (e.g. your VCC number) is ever sent to our servers neither saved on blockchain, thanks to end-to-end encryption and WebRTC technology.
-            br
-            br
-            | Only the fact of successfull asset transfer is written to the history.
-        li
-          h Reliable
-          p We've invented a special reputation algorithm, which allows to trust noone and everyone at the same time without involving any third-parties.
-        li
-          h Free
-          p Peerex never takes a charge for a local exchange except of basic Stellar fee (less than 1/1000 of US cent).
-    section#business
-      ul.features
-        h1 For business
-        p
-          | Have you ever dreamed about getting rid of all that legal-related mess? Start accepting almost any local currency converted to assets of your choice!
-          br
-          br
-          | Taxes are still your responsibility though.
-        li
-          h Any business
-          p Again, no KYC. Sell anything, sell everywhere. No fees are collected too!
-        li
-          h Any currency
-          p A user pays with his local currency (e.g. EUR via PayPal) and it automagically gets converted into an asset (say, BTC) and sent directly into your own wallet.
-        li
-          h Any scale
-          p The payment solution is hosted on your side, you're not dependent on Peerex.
-    section#roadmap
-      h1 Development roadmap
-      p
-        | The progress will be seen on our&nbsp;
-        a(href=github_url, target="_blank") GitHub
-        | .
-      ul
-        li
-          .date January'18
-          ul.milestones
-            li Anchor: BTC upgrade launch (+30% bonus)
-        li
-          .date February'18
-          ul.milestones
-            li Anchor: ETH upgrade launch (+10% bonus)
-            li Anchor: XMR upgrade launch (+10% bonus)
-            li Asset Exchange + Wallet beta
-        li
-          .date March'18
-          ul.milestones
-            li Asset Exchange launch
-            li Local Exchange beta
-        li
-          .date April'18
-          ul.milestones
-            li Local Exchange launch
-        li
-          .date Summer'18
-          ul.milestones
-            li Payments Platform launch
-    footer
+      .center
+        img.logo(src="../img/peerex.svg")
+        p Decentralized peer-to-peer local asset exchange
       ul.socials
         li
           a(href=twitter_url, target="_blank")
